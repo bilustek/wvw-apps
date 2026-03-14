@@ -1,0 +1,66 @@
+{
+    "$schema": "https://wvw.dev/apps.schema.json",
+    "store": {
+        "name": "Bilustek",
+        "developer": "Bilustek LLC",
+        "tagline": "Building tools that matter.",
+        "github": "https://github.com/bilustek"
+    },
+    "categories": [
+        {
+            "id": "web",
+            "name": "Web Apps"
+        },
+        {
+            "id": "utilities",
+            "name": "Utilities"
+        },
+        {
+            "id": "productivity",
+            "name": "Productivity"
+        },
+        {
+            "id": "developer-tools",
+            "name": "Developer Tools"
+        }
+    ],
+    "apps": [
+        {
+            "id": "secretdrop",
+            "name": "SecretDrop",
+            "developer": "Uğur vigo Özyılmazel",
+            "subtitle": "Share secrets securely",
+            "description": "Send passwords, API keys, and sensitive data through encrypted, self-destructing links.",
+            "longDescription": "SecretDrop lets you share sensitive information like passwords, API keys, and credentials through encrypted, one-time links that self-destruct after being viewed. No sign-up required for basic usage. Your secrets are encrypted end-to-end and never stored in plain text.",
+            "icon": "https://raw.githubusercontent.com/bilustek/secretdrop/main/frontend/public/apple-touch-icon.png",
+            "iconEmoji": "🔐",
+            "iconStyle": {
+                "scale": 1.1,
+                "objectFit": "cover",
+                "borderRadius": "22%"
+            },
+            "category": [
+                "web",
+                "utilities",
+                "productivity",
+                "developer-tools"
+            ],
+            "platform": "Web",
+            "price": "Freemium",
+            "github": "https://github.com/bilustek/secretdrop",
+            "homepage": "https://secretdrop.us",
+            "language": "Go, JavaScript",
+            "features": [
+                "End-to-end encrypted secret sharing",
+                "Self-destructing links after first view",
+                "No sign-up required for basic usage",
+                "Custom expiration and view limits",
+                "Password-protected secrets"
+            ],
+            "screenshots": [
+                "https://raw.githubusercontent.com/bilustek/wvw-apps/main/secretdrop/secretdrop-landing.png",
+                "https://raw.githubusercontent.com/bilustek/wvw-apps/main/secretdrop/secretdrop-in-app-screen-01.png"
+            ]
+        }
+    ]
+}
