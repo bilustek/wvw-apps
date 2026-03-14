@@ -6,24 +6,6 @@
         "tagline": "Building tools that matter.",
         "github": "https://github.com/bilustek"
     },
-    "categories": [
-        {
-            "id": "web",
-            "name": "Web Apps"
-        },
-        {
-            "id": "utilities",
-            "name": "Utilities"
-        },
-        {
-            "id": "productivity",
-            "name": "Productivity"
-        },
-        {
-            "id": "developer-tools",
-            "name": "Developer Tools"
-        }
-    ],
     "apps": [
         {
             "id": "secretdrop",
