@@ -6,6 +6,6 @@ https://wvw.dev
 
 ## Apps
 
-- SecretDrop
+- [SecretDrop](https://secretdrop.us)
 
 ---
